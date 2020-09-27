@@ -163,3 +163,27 @@ img {
   transform: rotate(45deg);
   transition: transform 0.2s linear;
 }
+
+/*----Partners----*/
+#partner{
+  margin: 5%;
+}
+.our-partner {
+text-align: center;
+}
+.our-partner .pic{
+  border: solid 2px black;
+  overflow: hidden;
+  transition: all 0.5s ease 0s;
+}
+.our-partner:hover .pic{  
+  border-bottom-color: #1c142b;
+  border-radius: 0 50%;
+}
+@media only screen and (max-width: 768px){
+  .our-sponsor .pic{
+      height: 300px;
+      width: 300px;
+      margin: 0 5% 0 15%;
+  }
+}
