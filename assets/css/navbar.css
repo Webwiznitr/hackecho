@@ -24,12 +24,14 @@ a{
 }
 .redg{
   text-align:center;
-  border:5px solid #1086e8;
+  border:3px solid #1086e8;
   border-radius:20px;
   animation: border-flicker 2s linear infinite;
   background-color: #000000;
   color: #FF00E6;
   animation: text-flicker 3s linear infinite;
+  margin: 10px;
+  float: right;
 }
 #offset {
   animation: letter-flicker 2s linear infinite;
