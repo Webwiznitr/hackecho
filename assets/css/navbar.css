@@ -29,9 +29,9 @@ a{
   animation: border-flicker 2s linear infinite;
   background-color: #000000;
   color: #FF00E6;
+  padding: 5px;
   animation: text-flicker 3s linear infinite;
   margin: 10px;
-  float: right;
 }
 #offset {
   animation: letter-flicker 2s linear infinite;
