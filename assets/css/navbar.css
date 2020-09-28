@@ -173,3 +173,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
     text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
   }
 }
+.row{
+  padding: 20px;
+  width: 100%;
+}
